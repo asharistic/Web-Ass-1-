@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<head>
+    <title>Ashar Khurram - Portfolio</title>
+    <style>
+        /* Basic reset */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Section styling */
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Portfolio project styling */
+        #portfolio div {
+            display: flex;
+            justify-content: right;
+            margin: 10px 0;
+        }
+
+        #portfolio img {
+            width: 200px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        /* Form styling */
+        form {
+            margin: 20px 0;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            width: auto;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+        }
+
+        footer a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Ashar Khurram</h1>
+        <p>Welcome to my personal Portfolio website!</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Ashar Khurram, a passionate Software Engnieer. Trying to learn Skills. I love working on projects that challenge me to learn new skills and grow.
+        </p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div style="display: flex; justify-content: space-around;">
+            <!-- Project 1 with Free Image -->
+            <div style="text-align: center;">
+                <h3>Project 1</h3>
+                <img src="https://images.hdqwalls.com/wallpapers/iron-man-divine-vengeance-hl.jpg" alt="Project 1" width="200">
+                <br> <!-- Optional: to add some space between the image and the title -->
+                
+            </div>
+    
+            <!-- Project 2 with Free Image -->
+            <div style="text-align: center;">
+                <h3>Project 2</h3>
+                <img src="https://images.hdqwalls.com/wallpapers/armed-and-ready-superman-wl.jpg" alt="Project 2" width="200">
+                <br> <!-- Optional: to add some space between the image and the title -->
+                
+            </div>
+    
+            <!-- Project 3 with Free Image -->
+            <div style="text-align: center;">
+                <h3>Project 3</h3>
+                <img src="https://images.hdqwalls.com/wallpapers/windmill-evening-4k-2v.jpg" alt="Project 3" width="200">
+                <br> <!-- Optional: to add some space between the image and the title -->
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contact Me Section -->
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+
+            <label for="hobbies">Hobbies:</label>
+            <select id="hobbies" name="hobbies" multiple>
+                <option value="sports">Sports</option>
+                <option value="reading">Reading</option>
+                <option value="coding">Coding</option>
+                <option value="traveling">Traveling</option>
+            </select>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country">
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+        <p>Connect with me on <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+        <p>&copy; Ashar Khurram 
+            <br>
+            All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+</html>
